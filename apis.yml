@@ -1,7 +1,29 @@
 aid: jedox
 name: Jedox
-description: Jedox is a company surfaced as a portfolio company of insight-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Jedox is an enterprise performance management (EPM) and financial planning &
+  analysis (FP&A) software company headquartered in Freiburg, Germany. Its
+  platform unifies planning, budgeting, AI-powered forecasting and scenario
+  planning, financial consolidation, and management reporting on a
+  multidimensional OLAP engine, connecting strategic, operational, and tactical
+  plans to enable integrated business planning (IBP) across finance, sales, HR,
+  and operations. Jedox offers an Excel-like web modeling experience,
+  Microsoft 365 add-ins, Canvas dashboards, a data-integration layer
+  (Integrator) with prebuilt connectors, AI agents (JedoxAI), and a mobile app,
+  delivered as a governed cloud platform. It is backed by Insight Partners and
+  is profiled here in the API Evangelist network as a company/provider.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.jedox.com/wp-content/uploads/2025/09/homepage-social-en.jpg
 url: https://raw.githubusercontent.com/api-evangelist/jedox/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,66 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Enterprise Performance Management
+- Financial Planning and Analysis
+- Budgeting and Forecasting
+- Business Intelligence
+- OLAP
+- Integrated Business Planning
+- Data Integration
+- Reporting
+- Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/jedox-domain-security.yml
+- type: DeveloperPortal
+  url: https://knowledgebase.jedox.com
+  name: Jedox Knowledge Base
+- type: Documentation
+  url: https://knowledgebase.jedox.com
+  name: Jedox Knowledge Base and Documentation
+- type: Support
+  url: https://www.jedox.com/en/services/support/
+  name: Jedox Support
+- type: Blog
+  url: https://www.jedox.com/en/blog/
+  name: Jedox Blog
+- type: Pricing
+  url: https://www.jedox.com/en/platform/pricing/
+  name: Subscriptions and Packages
+- type: SignUp
+  url: https://www.jedox.com/en/trial/
+  name: Jedox Free Trial
+- type: TermsOfService
+  url: https://www.jedox.com/en/legal/
+  name: Jedox Legal Information
+- type: PrivacyPolicy
+  url: https://www.jedox.com/en/data-protection-policy/
+  name: Jedox Data Protection Policy
+- type: TrustCenter
+  url: https://trust.jedox.com/
+  name: Jedox Trust Center (UpGuard)
+  x-url: security/jedox-trust-center.yml
+- type: Website
+  url: https://www.jedox.com/
+  name: Jedox
+- type: LLMsTxt
+  url: llms/jedox-llms.txt
+  name: Jedox llms.txt
+- type: WellKnown
+  url: well-known/jedox-well-known.yml
+  name: Jedox well-known discovery probe
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

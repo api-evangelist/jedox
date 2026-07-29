@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of https://www.jedox.com/.well-known/*
+host: https://www.jedox.com
+note: >-
+  Probed the standard /.well-known discovery surface on the primary Jedox host.
+  None of the probed documents were served (all 404). Recorded as an honest
+  negative result. A verbatim llms.txt WAS found at the site root and is captured
+  in llms/jedox-llms.txt.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /llms.txt
+  status: 200
+  note: served at site root, saved verbatim to llms/jedox-llms.txt

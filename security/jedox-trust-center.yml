@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.jedox.com/
+probe: true
+url: https://trust.jedox.com/
+platform: UpGuard Trust Center
+verified: true
+certifications: []
+note: >-
+  trust.jedox.com resolves to an UpGuard-hosted Trust Center
+  (customer.trust.upguard.com) and is linked from the jedox.com homepage footer,
+  confirming a real, published trust center. The certification/document list is
+  rendered client-side (JavaScript SPA) and could not be extracted server-side,
+  so specific named certifications are intentionally left empty rather than
+  fabricated. A future authenticated/rendered fetch can enumerate the SOC/ISO
+  documents Jedox publishes there. No `Compliance` pointer is emitted because no
+  named certification could be verified in this pass.
+evidence:
+- source: https://trust.jedox.com/
+  kind: trust-center
+  detail: UpGuard Trust Center page (HTTP 200), linked from jedox.com homepage
+- source: dns
+  kind: cname
+  detail: trust.jedox.com -> customer.trust.upguard.com
