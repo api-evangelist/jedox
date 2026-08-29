@@ -12,6 +12,17 @@ description: >-
   (Integrator) with prebuilt connectors, AI agents (JedoxAI), and a mobile app,
   delivered as a governed cloud platform. It is backed by Insight Partners and
   is profiled here in the API Evangelist network as a company/provider.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
